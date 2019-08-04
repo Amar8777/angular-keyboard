@@ -16,7 +16,7 @@ constructor(){
  
 }
 
-Change() {
+onInputFocus() {
 this.keyboard = new Keyboard({
       onChange: input => this.onChange(input),
       onKeyPress: button => this.onKeyPress(button)
